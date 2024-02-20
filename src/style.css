@@ -1,0 +1,30 @@
+@font-face {
+  font-family: code39;
+  src: url("./../fonts/code39-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: qr;
+  src: url("./../fonts/AlphanumericQR.ttf") format("truetype");
+}
+* {
+  margin-left: 3dvh;
+}
+.bar-code-128 {
+  font-family: "Libre Barcode 128", system-ui;
+  font-weight: 100;
+  font-size: 3rem;
+}
+.bar-code-39 {
+  font-family: "code39";
+  font-weight: 50;
+  font-size: 3rem;
+}
+.qr-code {
+  font-family: "qr";
+  font-weight: 50;
+  font-size: 3rem;
+}
+#Etq {
+  display: flex;
+  border: 1px solid black;
+}
