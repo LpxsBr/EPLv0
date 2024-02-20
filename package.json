@@ -1,0 +1,19 @@
+{
+  "name": "leito-epl",
+  "version": "1.0.0",
+  "description": "mvp do leitor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "epl",
+    "leitor",
+    "zebra",
+    "etiqueta",
+    "impressora",
+    "termica"
+  ],
+  "author": "anselmo lopes",
+  "license": "ISC"
+}
