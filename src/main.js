@@ -21,6 +21,10 @@ const toEPLView = (id) => {
 
     const ETIQ = document.getElementById('Etq')
 
+    while(ETIQ.firstChild){
+        ETIQ.removeChild(ETIQ.firstChild)
+    }
+
     codigoSplited.forEach(element => {
 
         // ;ALTURA DA ETIQUETA
