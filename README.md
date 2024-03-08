@@ -42,4 +42,9 @@ B850,10,1,1,1,1,1,1,1,88888
 
 ;Cod de barrar central
 B400,300,1,1,1,1,1,1,22222
+
+
+;Texto 90° superior direito
+A200,200,0,1,1,1,1,1,"Texto de exemplo"
+
 ```
