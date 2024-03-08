@@ -71,13 +71,12 @@ const toEPLView = (id) => {
             if(rotate == 2){t.style.transform = 'rotate(180deg)' }
             if(rotate == 3){t.style.transform = 'rotate(270deg)' }
             t.className = 'text-content';
-            t.textContent = textConfig[8].replaceAll('"', '');
+            t.textContent = textConfig[8].includes('"') && textConfig[8][0] == '"' && textConfig[8][textConfig[8].length - 1] == '"' ? textConfig[8].replaceAll('"', '') : 'Invalid Text';
             t.style.position = 'relative';
             t.style.fontSize = '1.2rem';
             ETIQ.appendChild(t);
 
         }
-
         // if(element.includes('q')) {ETIQ.style.width = `${element.substring(1, element.length)}px`}
     });
 
