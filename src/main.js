@@ -57,7 +57,30 @@ const toEPLView = (id) => {
             ETIQ.appendChild(c);
 
         }
+
+        if (element[0] == 'A') {
+            let textConfig = extractCode(element);
+            console.log(textConfig);
+            const t = document.createElement('p');
+            t.style.left = convertLen(textConfig[0], fC);
+            t.style.bottom = convertLen(textConfig[1], fC);
+            let rotate = Number(textConfig[2])
+            console.log(rotate);
+            if(rotate == 0){t.style.transform = 'rotate(0deg)' }
+            if(rotate == 1){t.style.transform = 'rotate(90deg)' }
+            if(rotate == 2){t.style.transform = 'rotate(180deg)' }
+            if(rotate == 3){t.style.transform = 'rotate(270deg)' }
+            t.className = 'text-content';
+            t.textContent = textConfig[8].replaceAll('"', '');
+            t.style.position = 'relative';
+            t.style.fontSize = '1.2rem';
+            ETIQ.appendChild(t);
+
+        }
+
         // if(element.includes('q')) {ETIQ.style.width = `${element.substring(1, element.length)}px`}
     });
 
 }
+
+console.log('to on, teste')
