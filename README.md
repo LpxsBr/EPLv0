@@ -57,3 +57,9 @@ B400,300,1,1,1,1,1,1,22222
 A200,200,0,1,1,1,1,1,"Texto de exemplo"
 
 ```
+
+**References**
+
+[Linguagem de programacao zebra EPL](https://zebramaster.blogspot.com/2013/04/linguagem-de-programacao-zebra-epl.html)
+
+[EPL2 Command Information and Details](https://supportcommunity.zebra.com/s/article/EPL2-Command-Information-and-Details?language=pt_BR)
