@@ -31,6 +31,19 @@ Random image :)
 ```
 Web Delivery by: [jsDelivr](https://github.com/jsdelivr/jsdelivr)
 
+**EPL Structure**
+
+```pseudo
+
+    Start<LF>
+           N<LF>
+           Configuration
+           Print – Type / Where (position and orientation) / Data
+    End
+    Pn<LF>
+
+```
+
 **Sample**
 
 ```s
