@@ -1,8 +1,26 @@
 ## EPLv0 - EPL Viewer 0
 
-![Screenshot](./public/image.png)
+<!-- ![Screenshot](./public/image.png) -->
+
+![Screenshot](./public/image01.png)
 
 ---
+
+**CDN For experimnents**
+
+```html
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/gh/LpxsBr/EPLv0@main/src/main.js"></script>
+
+```
+
+```html
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LpxsBr/EPLv0@main/src/style.css">
+
+```
+Web Delivery by: [jsDelivr](https://github.com/jsdelivr/jsdelivr)
 
 **Sample**
 
