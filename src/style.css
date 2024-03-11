@@ -18,6 +18,18 @@ main{
   gap: 10px;
 }
 
+#text{
+  background: url("http://i.imgur.com/2cOaJ.png");
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  line-height: 1.1rem;
+  background-color: #444444;
+  color: orange;
+  padding-top: 10px;
+  border-color: #ccc;
+}
+
 .bar-code-128 {
   font-family: "Libre Barcode 128", system-ui;
   font-weight: 100;
