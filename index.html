@@ -11,8 +11,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./src/style.css">
-  
-<script src="./src/main.js"></script>
   <title>Document</title>
 </head>
 
@@ -28,11 +26,15 @@
     </div>
     <div>
       <h5>Editor</h5>
-      <textarea id="text" style="width: 20vw; height: 90vh; padding: 10px;" autofocus
-        placeholder="Digite seu código aqui"></textarea>
-        <button type="button" onclick="toEPLView('text')">Atualizar</button>
+      <textarea id="text" style="width: 25vw; height: 70vh;" autofocus placeholder="Digite seu código aqui" onkeydown="eplHighLight('text')"></textarea>
+      <div style="display: flex; justify-content: space-between;">
+        <button type="button" style="width: 100px;" onclick="toEPLView('text')">Atualizar</button>
+        <p id="info" style="width: 200px; height: 100px; background-color: rgb(218, 218, 218);"></p>
+      </div>
     </div>
   </main>
 </body>
+
+<script src="./src/main.js"></script>
 
 </html>
